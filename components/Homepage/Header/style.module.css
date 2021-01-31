@@ -1,0 +1,46 @@
+
+.section{
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "Segoe UI Semibold";
+}
+
+.logo{
+    font-size: 30px;
+    margin: 20px 0 0 50px;
+}
+
+.menu{
+    margin: 20px 50px 0 0;
+    letter-spacing: 2px;
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    width: 300px;
+    font-size: larger;
+}
+
+.li{
+    padding-bottom: 5px;
+}
+
+.li:hover{
+    border-bottom: 3px #fff solid;
+}
+
+.a{
+    color: #fff;
+    text-decoration: none;
+}
